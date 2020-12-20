@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.buttons-list button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+hr {
+  max-width: 700px;
+  font-size: 10px;
+}
+
+button {
+  background-color: #536dfe;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.food-list {
+  display: flex;
+  justify-content: center;
+}
+
+.food-item {
+  border: 1px solid black;
+  max-width: 300px;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
